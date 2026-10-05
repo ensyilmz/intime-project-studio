@@ -1,0 +1,10 @@
+{
+  "name": "intime-project-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "İntime mutfak projeleri için deneysel 3D web deneyimi",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check js/app.js && node --check js/world.js && node --check server.cjs"
+  }
+}
